@@ -2,21 +2,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Fast Bundles</title>
 </head>
 <body>
   <h2>Fast Bundles Purchase Form</h2>
-  <form action="https://script.google.com/macros/s/AKfycbyQhD0s0AD67y-mF7Suox5v_banLifMnC_wpvGtjWUJVHc93teVaMBkhb73PQVqctQKEQ/exec" method="POST">
-    <label for="phone">MPESA Number:</label><br>
+
+  <form action="https://script.google.com/macros/s/AKfycbxSsEzE_otr00nwhyThdleXN0bvbPo7HYZGIdkhCqgF3bpETqKUpVU8VuW5EkrHCk1_ZQ/exec" method="POST">
+    <label for="phone">📱 MPESA Phone Number:</label><br>
     <input type="tel" id="phone" name="Phone Number" required><br><br>
 
-    <label for="amount">Amount Sent (Ksh):</label><br>
+    <label for="amount">💰 Amount Sent (Ksh):</label><br>
     <input type="number" id="amount" name="Amount Sent" required><br><br>
 
-    <label for="category">Category:</label><br>
-    <select id="category" name="Bundle Category">
+    <label for="category">📦 Bundle Category:</label><br>
+    <select id="category" name="Bundle Category" required>
       <option value="Data">Data</option>
       <option value="SMS">SMS</option>
       <option value="Minutes">Minutes</option>
@@ -24,5 +25,7 @@
 
     <input type="submit" value="Submit">
   </form>
+
+  <p style="margin-top: 20px;">Pay via MPESA Send Money to <strong>0798853748</strong> BEFORE filling this form.</p>
 </body>
 </html>
